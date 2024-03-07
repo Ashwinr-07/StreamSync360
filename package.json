@@ -1,0 +1,21 @@
+{
+  "name": "streamsync360",
+  "version": "1.0.0",
+  "description": "<img width=\"564\" alt=\"image\" src=\"https://github.com/Ashwinr-07/StreamSync360/assets/105007681/59ddb943-385a-4220-97cb-0513725fbfd7\">",
+  "main": "index.js",
+  "scripts": {
+    "devStart" : "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.3",
+    "socket.io": "^4.7.4",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
