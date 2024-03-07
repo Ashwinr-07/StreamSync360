@@ -1,0 +1,26 @@
+/* Set black background for the entire page */
+body {
+    background-color: black;
+}
+
+/* Style the video grid */
+#video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid layout */
+    gap: 10px; /* Add space between grid items */
+}
+
+/* Style the individual video items */
+video {
+    width: calc(100% - 10px); /* Account for border width */
+    height: calc(100% - 10px); /* Account for border width */
+    object-fit: cover; /* Maintain aspect ratio */
+    border: 5px dotted red; /* Add red dotted border */
+    border-radius: 5px; /* Add rounded corners */
+    transition: transform 0.3s ease; /* Add transition effect */
+}
+
+/* Scale up the video slightly on hover */
+video:hover {
+    transform: scale(1.2); /* Increase size by 20% */
+}
